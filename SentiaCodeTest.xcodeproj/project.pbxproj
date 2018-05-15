@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B51D5AF8B9AA66B538B90E /* Pods_SentiaCodeTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA86009DF39508B84A1850A /* Pods_SentiaCodeTestTests.framework */; };
+		6B09192220A9520F00BAC3B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09192120A9520F00BAC3B8 /* AppDelegate.swift */; };
+		6B09192720A9520F00BAC3B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B09192520A9520F00BAC3B8 /* Main.storyboard */; };
+		6B09192920A9520F00BAC3B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B09192820A9520F00BAC3B8 /* Assets.xcassets */; };
+		6B09192C20A9520F00BAC3B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B09192A20A9520F00BAC3B8 /* LaunchScreen.storyboard */; };
+		6B09193720A9520F00BAC3B8 /* SentiaCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09193620A9520F00BAC3B8 /* SentiaCodeTestTests.swift */; };
+		6B09194220A9520F00BAC3B8 /* SentiaCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09194120A9520F00BAC3B8 /* SentiaCodeTestUITests.swift */; };
+		6B09195020A9578400BAC3B8 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09194F20A9578400BAC3B8 /* Property.swift */; };
+		6B09195220A95EF800BAC3B8 /* PropertyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195120A95EF800BAC3B8 /* PropertyListViewController.swift */; };
+		6B09195420A96E2300BAC3B8 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195320A96E2300BAC3B8 /* ContainerViewController.swift */; };
+		6B09195620A972AE00BAC3B8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195520A972AE00BAC3B8 /* ListViewController.swift */; };
+		6B09195820A9773C00BAC3B8 /* PropertyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195720A9773C00BAC3B8 /* PropertyTableViewController.swift */; };
+		6B09195C20A983C800BAC3B8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195B20A983C800BAC3B8 /* DetailViewController.swift */; };
+		6B09195E20A989EA00BAC3B8 /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195D20A989EA00BAC3B8 /* PropertyTableViewCell.swift */; };
+		6B09196020AA995A00BAC3B8 /* SplitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195F20AA995A00BAC3B8 /* SplitExtension.swift */; };
+		73C57E58500B0207F7AE4454 /* Pods_SentiaCodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAC84C11712AAAC302F480E /* Pods_SentiaCodeTest.framework */; };
+		FFF92CE4CB1A379C68FD419B /* Pods_SentiaCodeTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDEF20D32D9577DCFFD80C /* Pods_SentiaCodeTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B09193320A9520F00BAC3B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B09191620A9520F00BAC3B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B09191D20A9520F00BAC3B8;
+			remoteInfo = SentiaCodeTest;
+		};
+		6B09193E20A9520F00BAC3B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B09191620A9520F00BAC3B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B09191D20A9520F00BAC3B8;
+			remoteInfo = SentiaCodeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DAC84C11712AAAC302F480E /* Pods_SentiaCodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentiaCodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479A0E47926DBBC7304D71FE /* Pods-SentiaCodeTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaCodeTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaCodeTestUITests/Pods-SentiaCodeTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47E6C4180221122AC198771E /* Pods-SentiaCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaCodeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaCodeTest/Pods-SentiaCodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		6B09191E20A9520F00BAC3B8 /* SentiaCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentiaCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B09192120A9520F00BAC3B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B09192620A9520F00BAC3B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B09192820A9520F00BAC3B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B09192B20A9520F00BAC3B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B09192D20A9520F00BAC3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B09193220A9520F00BAC3B8 /* SentiaCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiaCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B09193620A9520F00BAC3B8 /* SentiaCodeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiaCodeTestTests.swift; sourceTree = "<group>"; };
+		6B09193820A9520F00BAC3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B09193D20A9520F00BAC3B8 /* SentiaCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiaCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B09194120A9520F00BAC3B8 /* SentiaCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiaCodeTestUITests.swift; sourceTree = "<group>"; };
+		6B09194320A9520F00BAC3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B09194F20A9578400BAC3B8 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		6B09195120A95EF800BAC3B8 /* PropertyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListViewController.swift; sourceTree = "<group>"; };
+		6B09195320A96E2300BAC3B8 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		6B09195520A972AE00BAC3B8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		6B09195720A9773C00BAC3B8 /* PropertyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewController.swift; sourceTree = "<group>"; };
+		6B09195B20A983C800BAC3B8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6B09195D20A989EA00BAC3B8 /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
+		6B09195F20AA995A00BAC3B8 /* SplitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitExtension.swift; sourceTree = "<group>"; };
+		7F7A55EB0C0B29FE42EE9E29 /* Pods-SentiaCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaCodeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaCodeTest/Pods-SentiaCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		ABACD1D1C01948F502969674 /* Pods-SentiaCodeTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaCodeTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaCodeTestUITests/Pods-SentiaCodeTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE9EA8F9241CA2DFF6868D69 /* Pods-SentiaCodeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaCodeTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaCodeTestTests/Pods-SentiaCodeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCA86009DF39508B84A1850A /* Pods_SentiaCodeTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentiaCodeTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11BE8B14C5ED56AC255751D /* Pods-SentiaCodeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaCodeTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaCodeTestTests/Pods-SentiaCodeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9EDEF20D32D9577DCFFD80C /* Pods_SentiaCodeTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentiaCodeTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B09191B20A9520F00BAC3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C57E58500B0207F7AE4454 /* Pods_SentiaCodeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B09192F20A9520F00BAC3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B51D5AF8B9AA66B538B90E /* Pods_SentiaCodeTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B09193A20A9520F00BAC3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF92CE4CB1A379C68FD419B /* Pods_SentiaCodeTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF3C8F28E184489C921247D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A55EB0C0B29FE42EE9E29 /* Pods-SentiaCodeTest.debug.xcconfig */,
+				47E6C4180221122AC198771E /* Pods-SentiaCodeTest.release.xcconfig */,
+				E11BE8B14C5ED56AC255751D /* Pods-SentiaCodeTestTests.debug.xcconfig */,
+				CE9EA8F9241CA2DFF6868D69 /* Pods-SentiaCodeTestTests.release.xcconfig */,
+				479A0E47926DBBC7304D71FE /* Pods-SentiaCodeTestUITests.debug.xcconfig */,
+				ABACD1D1C01948F502969674 /* Pods-SentiaCodeTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B09191520A9520F00BAC3B8 = {
+			isa = PBXGroup;
+			children = (
+				6B09192020A9520F00BAC3B8 /* SentiaCodeTest */,
+				6B09193520A9520F00BAC3B8 /* SentiaCodeTestTests */,
+				6B09194020A9520F00BAC3B8 /* SentiaCodeTestUITests */,
+				6B09191F20A9520F00BAC3B8 /* Products */,
+				1FF3C8F28E184489C921247D /* Pods */,
+				8AD1AF13EF1B538437455A2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B09191F20A9520F00BAC3B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B09191E20A9520F00BAC3B8 /* SentiaCodeTest.app */,
+				6B09193220A9520F00BAC3B8 /* SentiaCodeTestTests.xctest */,
+				6B09193D20A9520F00BAC3B8 /* SentiaCodeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B09192020A9520F00BAC3B8 /* SentiaCodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				6B09192120A9520F00BAC3B8 /* AppDelegate.swift */,
+				6BD2CF0220AADEE600B396F4 /* Model */,
+				6BD2CF0320AADEF400B396F4 /* View */,
+				6BD2CF0520AADF5500B396F4 /* Controller */,
+				6B09192520A9520F00BAC3B8 /* Main.storyboard */,
+				6B09195F20AA995A00BAC3B8 /* SplitExtension.swift */,
+				6B09192820A9520F00BAC3B8 /* Assets.xcassets */,
+				6B09192A20A9520F00BAC3B8 /* LaunchScreen.storyboard */,
+				6B09192D20A9520F00BAC3B8 /* Info.plist */,
+				6B09195320A96E2300BAC3B8 /* ContainerViewController.swift */,
+				6B09195520A972AE00BAC3B8 /* ListViewController.swift */,
+				6B09195120A95EF800BAC3B8 /* PropertyListViewController.swift */,
+			);
+			path = SentiaCodeTest;
+			sourceTree = "<group>";
+		};
+		6B09193520A9520F00BAC3B8 /* SentiaCodeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B09193620A9520F00BAC3B8 /* SentiaCodeTestTests.swift */,
+				6B09193820A9520F00BAC3B8 /* Info.plist */,
+			);
+			path = SentiaCodeTestTests;
+			sourceTree = "<group>";
+		};
+		6B09194020A9520F00BAC3B8 /* SentiaCodeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B09194120A9520F00BAC3B8 /* SentiaCodeTestUITests.swift */,
+				6B09194320A9520F00BAC3B8 /* Info.plist */,
+			);
+			path = SentiaCodeTestUITests;
+			sourceTree = "<group>";
+		};
+		6BD2CF0220AADEE600B396F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B09194F20A9578400BAC3B8 /* Property.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BD2CF0320AADEF400B396F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B09195D20A989EA00BAC3B8 /* PropertyTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BD2CF0520AADF5500B396F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B09195720A9773C00BAC3B8 /* PropertyTableViewController.swift */,
+				6B09195B20A983C800BAC3B8 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AD1AF13EF1B538437455A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DAC84C11712AAAC302F480E /* Pods_SentiaCodeTest.framework */,
+				DCA86009DF39508B84A1850A /* Pods_SentiaCodeTestTests.framework */,
+				E9EDEF20D32D9577DCFFD80C /* Pods_SentiaCodeTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B09191D20A9520F00BAC3B8 /* SentiaCodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B09194620A9520F00BAC3B8 /* Build configuration list for PBXNativeTarget "SentiaCodeTest" */;
+			buildPhases = (
+				CA8616FBD6B5ABDD361C9E77 /* [CP] Check Pods Manifest.lock */,
+				6B09191A20A9520F00BAC3B8 /* Sources */,
+				6B09191B20A9520F00BAC3B8 /* Frameworks */,
+				6B09191C20A9520F00BAC3B8 /* Resources */,
+				079119B17476FBA3D729EBAD /* [CP] Embed Pods Frameworks */,
+				9E9B174981CF420D43EB6D78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentiaCodeTest;
+			productName = SentiaCodeTest;
+			productReference = 6B09191E20A9520F00BAC3B8 /* SentiaCodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B09193120A9520F00BAC3B8 /* SentiaCodeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B09194920A9520F00BAC3B8 /* Build configuration list for PBXNativeTarget "SentiaCodeTestTests" */;
+			buildPhases = (
+				240638AEECBB83749F04D766 /* [CP] Check Pods Manifest.lock */,
+				6B09192E20A9520F00BAC3B8 /* Sources */,
+				6B09192F20A9520F00BAC3B8 /* Frameworks */,
+				6B09193020A9520F00BAC3B8 /* Resources */,
+				8BA3B82EEE4B880C2A73DA0E /* [CP] Embed Pods Frameworks */,
+				5F57F848864BDC74F05834DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B09193420A9520F00BAC3B8 /* PBXTargetDependency */,
+			);
+			name = SentiaCodeTestTests;
+			productName = SentiaCodeTestTests;
+			productReference = 6B09193220A9520F00BAC3B8 /* SentiaCodeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B09193C20A9520F00BAC3B8 /* SentiaCodeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B09194C20A9520F00BAC3B8 /* Build configuration list for PBXNativeTarget "SentiaCodeTestUITests" */;
+			buildPhases = (
+				A488FB7867A8E7B4884433D5 /* [CP] Check Pods Manifest.lock */,
+				6B09193920A9520F00BAC3B8 /* Sources */,
+				6B09193A20A9520F00BAC3B8 /* Frameworks */,
+				6B09193B20A9520F00BAC3B8 /* Resources */,
+				7D06C424A80761C15D55255F /* [CP] Embed Pods Frameworks */,
+				1CBA6E16A9575561AD034FD7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B09193F20A9520F00BAC3B8 /* PBXTargetDependency */,
+			);
+			name = SentiaCodeTestUITests;
+			productName = SentiaCodeTestUITests;
+			productReference = 6B09193D20A9520F00BAC3B8 /* SentiaCodeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B09191620A9520F00BAC3B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Simeng Liu";
+				TargetAttributes = {
+					6B09191D20A9520F00BAC3B8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					6B09193120A9520F00BAC3B8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B09191D20A9520F00BAC3B8;
+					};
+					6B09193C20A9520F00BAC3B8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B09191D20A9520F00BAC3B8;
+					};
+				};
+			};
+			buildConfigurationList = 6B09191920A9520F00BAC3B8 /* Build configuration list for PBXProject "SentiaCodeTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B09191520A9520F00BAC3B8;
+			productRefGroup = 6B09191F20A9520F00BAC3B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B09191D20A9520F00BAC3B8 /* SentiaCodeTest */,
+				6B09193120A9520F00BAC3B8 /* SentiaCodeTestTests */,
+				6B09193C20A9520F00BAC3B8 /* SentiaCodeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B09191C20A9520F00BAC3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B09192C20A9520F00BAC3B8 /* LaunchScreen.storyboard in Resources */,
+				6B09192920A9520F00BAC3B8 /* Assets.xcassets in Resources */,
+				6B09192720A9520F00BAC3B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B09193020A9520F00BAC3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B09193B20A9520F00BAC3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079119B17476FBA3D729EBAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SentiaCodeTest/Pods-SentiaCodeTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentiaCodeTest/Pods-SentiaCodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CBA6E16A9575561AD034FD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentiaCodeTestUITests/Pods-SentiaCodeTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		240638AEECBB83749F04D766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentiaCodeTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F57F848864BDC74F05834DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentiaCodeTestTests/Pods-SentiaCodeTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D06C424A80761C15D55255F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentiaCodeTestUITests/Pods-SentiaCodeTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA3B82EEE4B880C2A73DA0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentiaCodeTestTests/Pods-SentiaCodeTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9B174981CF420D43EB6D78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentiaCodeTest/Pods-SentiaCodeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A488FB7867A8E7B4884433D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentiaCodeTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8616FBD6B5ABDD361C9E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentiaCodeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B09191A20A9520F00BAC3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B09195020A9578400BAC3B8 /* Property.swift in Sources */,
+				6B09195220A95EF800BAC3B8 /* PropertyListViewController.swift in Sources */,
+				6B09196020AA995A00BAC3B8 /* SplitExtension.swift in Sources */,
+				6B09195E20A989EA00BAC3B8 /* PropertyTableViewCell.swift in Sources */,
+				6B09195820A9773C00BAC3B8 /* PropertyTableViewController.swift in Sources */,
+				6B09195420A96E2300BAC3B8 /* ContainerViewController.swift in Sources */,
+				6B09195620A972AE00BAC3B8 /* ListViewController.swift in Sources */,
+				6B09192220A9520F00BAC3B8 /* AppDelegate.swift in Sources */,
+				6B09195C20A983C800BAC3B8 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B09192E20A9520F00BAC3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B09193720A9520F00BAC3B8 /* SentiaCodeTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B09193920A9520F00BAC3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B09194220A9520F00BAC3B8 /* SentiaCodeTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B09193420A9520F00BAC3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B09191D20A9520F00BAC3B8 /* SentiaCodeTest */;
+			targetProxy = 6B09193320A9520F00BAC3B8 /* PBXContainerItemProxy */;
+		};
+		6B09193F20A9520F00BAC3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B09191D20A9520F00BAC3B8 /* SentiaCodeTest */;
+			targetProxy = 6B09193E20A9520F00BAC3B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B09192520A9520F00BAC3B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B09192620A9520F00BAC3B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B09192A20A9520F00BAC3B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B09192B20A9520F00BAC3B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B09194420A9520F00BAC3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B09194520A9520F00BAC3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B09194720A9520F00BAC3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7A55EB0C0B29FE42EE9E29 /* Pods-SentiaCodeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88N43X68K5;
+				INFOPLIST_FILE = SentiaCodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simengliu.SentiaCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B09194820A9520F00BAC3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E6C4180221122AC198771E /* Pods-SentiaCodeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88N43X68K5;
+				INFOPLIST_FILE = SentiaCodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simengliu.SentiaCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B09194A20A9520F00BAC3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11BE8B14C5ED56AC255751D /* Pods-SentiaCodeTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88N43X68K5;
+				INFOPLIST_FILE = SentiaCodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simengliu.SentiaCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentiaCodeTest.app/SentiaCodeTest";
+			};
+			name = Debug;
+		};
+		6B09194B20A9520F00BAC3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9EA8F9241CA2DFF6868D69 /* Pods-SentiaCodeTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88N43X68K5;
+				INFOPLIST_FILE = SentiaCodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simengliu.SentiaCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentiaCodeTest.app/SentiaCodeTest";
+			};
+			name = Release;
+		};
+		6B09194D20A9520F00BAC3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479A0E47926DBBC7304D71FE /* Pods-SentiaCodeTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88N43X68K5;
+				INFOPLIST_FILE = SentiaCodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simengliu.SentiaCodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentiaCodeTest;
+			};
+			name = Debug;
+		};
+		6B09194E20A9520F00BAC3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABACD1D1C01948F502969674 /* Pods-SentiaCodeTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88N43X68K5;
+				INFOPLIST_FILE = SentiaCodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simengliu.SentiaCodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentiaCodeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B09191920A9520F00BAC3B8 /* Build configuration list for PBXProject "SentiaCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B09194420A9520F00BAC3B8 /* Debug */,
+				6B09194520A9520F00BAC3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B09194620A9520F00BAC3B8 /* Build configuration list for PBXNativeTarget "SentiaCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B09194720A9520F00BAC3B8 /* Debug */,
+				6B09194820A9520F00BAC3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B09194920A9520F00BAC3B8 /* Build configuration list for PBXNativeTarget "SentiaCodeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B09194A20A9520F00BAC3B8 /* Debug */,
+				6B09194B20A9520F00BAC3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B09194C20A9520F00BAC3B8 /* Build configuration list for PBXNativeTarget "SentiaCodeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B09194D20A9520F00BAC3B8 /* Debug */,
+				6B09194E20A9520F00BAC3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B09191620A9520F00BAC3B8 /* Project object */;
+}
