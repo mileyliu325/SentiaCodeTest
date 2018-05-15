@@ -15,9 +15,7 @@
 		6B09193720A9520F00BAC3B8 /* SentiaCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09193620A9520F00BAC3B8 /* SentiaCodeTestTests.swift */; };
 		6B09194220A9520F00BAC3B8 /* SentiaCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09194120A9520F00BAC3B8 /* SentiaCodeTestUITests.swift */; };
 		6B09195020A9578400BAC3B8 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09194F20A9578400BAC3B8 /* Property.swift */; };
-		6B09195220A95EF800BAC3B8 /* PropertyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195120A95EF800BAC3B8 /* PropertyListViewController.swift */; };
 		6B09195420A96E2300BAC3B8 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195320A96E2300BAC3B8 /* ContainerViewController.swift */; };
-		6B09195620A972AE00BAC3B8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195520A972AE00BAC3B8 /* ListViewController.swift */; };
 		6B09195820A9773C00BAC3B8 /* PropertyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195720A9773C00BAC3B8 /* PropertyTableViewController.swift */; };
 		6B09195C20A983C800BAC3B8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195B20A983C800BAC3B8 /* DetailViewController.swift */; };
 		6B09195E20A989EA00BAC3B8 /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09195D20A989EA00BAC3B8 /* PropertyTableViewCell.swift */; };
@@ -60,9 +58,7 @@
 		6B09194120A9520F00BAC3B8 /* SentiaCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiaCodeTestUITests.swift; sourceTree = "<group>"; };
 		6B09194320A9520F00BAC3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B09194F20A9578400BAC3B8 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
-		6B09195120A95EF800BAC3B8 /* PropertyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListViewController.swift; sourceTree = "<group>"; };
 		6B09195320A96E2300BAC3B8 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
-		6B09195520A972AE00BAC3B8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		6B09195720A9773C00BAC3B8 /* PropertyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewController.swift; sourceTree = "<group>"; };
 		6B09195B20A983C800BAC3B8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6B09195D20A989EA00BAC3B8 /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
@@ -151,8 +147,6 @@
 				6B09192A20A9520F00BAC3B8 /* LaunchScreen.storyboard */,
 				6B09192D20A9520F00BAC3B8 /* Info.plist */,
 				6B09195320A96E2300BAC3B8 /* ContainerViewController.swift */,
-				6B09195520A972AE00BAC3B8 /* ListViewController.swift */,
-				6B09195120A95EF800BAC3B8 /* PropertyListViewController.swift */,
 			);
 			path = SentiaCodeTest;
 			sourceTree = "<group>";
@@ -514,12 +508,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B09195020A9578400BAC3B8 /* Property.swift in Sources */,
-				6B09195220A95EF800BAC3B8 /* PropertyListViewController.swift in Sources */,
 				6B09196020AA995A00BAC3B8 /* SplitExtension.swift in Sources */,
 				6B09195E20A989EA00BAC3B8 /* PropertyTableViewCell.swift in Sources */,
 				6B09195820A9773C00BAC3B8 /* PropertyTableViewController.swift in Sources */,
 				6B09195420A96E2300BAC3B8 /* ContainerViewController.swift in Sources */,
-				6B09195620A972AE00BAC3B8 /* ListViewController.swift in Sources */,
 				6B09192220A9520F00BAC3B8 /* AppDelegate.swift in Sources */,
 				6B09195C20A983C800BAC3B8 /* DetailViewController.swift in Sources */,
 			);
