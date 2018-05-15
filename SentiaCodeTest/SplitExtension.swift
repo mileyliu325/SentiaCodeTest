@@ -40,8 +40,8 @@ extension UISplitViewController: UISplitViewControllerDelegate {
     public func splitViewController(_ svc: UISplitViewController, willHide aViewController: UIViewController, with barButtonItem: UIBarButtonItem, for pc: UIPopoverController) {
         if (!svc.responds(to: #selector(getter: UISplitViewController.displayModeButtonItem))) {
             if let detailView = svc.viewControllers[svc.viewControllers.count-1] as? UINavigationController {
+                print("willHide")
                 svc.backBarButtonItem = barButtonItem
-
                 detailView.topViewController?.navigationItem.leftBarButtonItem = barButtonItem
             }
         }
@@ -51,6 +51,7 @@ extension UISplitViewController: UISplitViewControllerDelegate {
     public func splitViewController(_ svc: UISplitViewController, willShow aViewController: UIViewController, invalidating barButtonItem: UIBarButtonItem) {
         if (!svc.responds(to: #selector(getter: UISplitViewController.displayModeButtonItem))) {
             if let detailView = svc.viewControllers[svc.viewControllers.count-1] as? UINavigationController {
+                  print("willShow")
                 svc.backBarButtonItem = nil
                 detailView.topViewController?.navigationItem.leftBarButtonItem = nil
                
@@ -68,6 +69,9 @@ extension UISplitViewController: UISplitViewControllerDelegate {
         }
         return true
     }
+
     
 }
+
+
 

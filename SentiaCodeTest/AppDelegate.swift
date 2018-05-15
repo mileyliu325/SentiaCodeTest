@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             navigationController.topViewController?.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
             navigationController.topViewController?.navigationItem.leftItemsSupplementBackButton = true        
             splitViewController.delegate = splitViewController
+
         }
         return true
     }

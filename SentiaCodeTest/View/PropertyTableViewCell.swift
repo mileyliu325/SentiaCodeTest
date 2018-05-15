@@ -36,6 +36,7 @@ class PropertyTableViewCell: UITableViewCell {
         self.isFeaturedLabel.backgroundColor = UIColor.orange
         
         
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
