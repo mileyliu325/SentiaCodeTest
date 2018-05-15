@@ -33,6 +33,8 @@ class PropertyTableViewCell: UITableViewCell {
         self.addressLabel.lineBreakMode = .byWordWrapping
         self.addressLabel.numberOfLines = 0
         
+        self.isFeaturedLabel.backgroundColor = UIColor.orange
+        
         
     }
 

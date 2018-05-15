@@ -30,6 +30,10 @@ class PropertyTableViewController: UITableViewController {
         createDropdownFresh()
         
     }
+    override func viewWillAppear(_ animated: Bool) {
+        self.tableView.reloadData()
+    }
+    
     // MARK: - Refresh
     func createDropdownFresh() -> Void {
         
