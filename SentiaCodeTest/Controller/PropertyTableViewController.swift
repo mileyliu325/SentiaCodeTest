@@ -118,11 +118,13 @@ class PropertyTableViewController: UITableViewController {
         cell.addressLabel?.text = property.location_address_2! + "," + property.location_address_1!
         cell.suburbLabel.text = property.location_suburb! + "," + property.location_postcode!
         
-        cell.bedroomNumLabel.text = "\(property.bedrooms!)"
-        cell.bathroomNumLabel.text = "\(property.bathrooms!)"
-        cell.carpartNumLabel.text = "\(property.carspots!)"
+        cell.bedroomNumLabel.text = String(property.bedrooms)
+        cell.bathroomNumLabel.text = String(property.bathrooms)
+        cell.carpartNumLabel.text = String(property.carspots)
         
-        cell.ownerNameLabel.text = "\(property.first_name!) \(property.last_name!)"
+        
+        cell.ownerNameLabel.text = property.first_name + " " + property.last_name
+       
         cell.avatarImageview.sd_setImage(with:  URL(string: property.avatar_medium!) as URL!, placeholderImage: UIImage(named:"placeholder_user"), options: .continueInBackground) { (image, erro, cacheTyoe, url) in
         }
         
@@ -133,9 +135,14 @@ class PropertyTableViewController: UITableViewController {
             cell.isFeaturedLabel.isHidden = true
         }
         
-        cell.propertyImage.sd_setImage(with:  URL(string:property.photo!) as URL!, placeholderImage: UIImage(named:"placeholder"), options: .continueInBackground) { (image, erro, cacheTyoe, url) in
+        if let propertyUrl = property.photo {
+            cell.propertyImage.sd_setImage(with:  URL(string:propertyUrl) as URL!, placeholderImage: UIImage(named:"placeholder"), options: .continueInBackground) { (image, erro, cacheTyoe, url) in}
             
+        }else{
+            cell.propertyImage.image = UIImage(named:"placeholder")
         }
+        
+        
         return cell
     }
     
@@ -165,12 +172,6 @@ class PropertyTableViewController: UITableViewController {
                 detailViewController.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 detailViewController.navigationItem.leftItemsSupplementBackButton = true
             }
-//            else {
-//
-//                // works for iPhone on ios7, where UISplitViewController is not implemented
-//                detailViewController = segue.destination as! DetailViewController
-//            }
-            // this is common part, where one can configure detail view
             // segue provides a new instance of detail view everytime
             if let selectedRowIndexPath = tableView.indexPathForSelectedRow {
                 

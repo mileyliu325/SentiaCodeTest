@@ -12,20 +12,23 @@ import ObjectMapper
 class Property: Mappable {
     
     var id: Int?
-    var title: String?
-    var bedrooms: Int?
-    var bathrooms: Int?
-    var carspots: Int?
-    var description: String?
-    var price: Double?
-    var first_name: String?
-    var last_name: String?
-    var avatar_medium: String?
-    var location_address_1: String?
-    var location_address_2: String?
-    var location_suburb: String?
-    var location_postcode: String?
-    var is_premium: Bool?
+    
+    //required
+    var title: String!
+    var bedrooms: Int!
+    var bathrooms: Int!
+    var carspots: Int!
+    var description: String!
+    var price: Double!
+    var first_name: String!
+    var last_name: String!
+    var avatar_medium: String!
+    var location_address_1: String!
+    var location_address_2: String!
+    var location_suburb: String!
+    var location_postcode: String!
+    var is_premium: Bool!
+    
     var photo: String?
     
     required init?(map: Map) {
