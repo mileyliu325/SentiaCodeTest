@@ -115,8 +115,8 @@ class PropertyTableViewController: UITableViewController {
         let property = self.data[indexPath.row] as! Property
         
         cell.titleLabel?.text = property.title
-        cell.addressLabel?.text = property.location_address_2! + "," + property.location_address_1!
-        cell.suburbLabel.text = property.location_suburb! + "," + property.location_postcode!
+        cell.addressLabel?.text = property.location_address_2 + "," + property.location_address_1
+        cell.suburbLabel.text = property.location_suburb + "," + property.location_postcode
         
         cell.bedroomNumLabel.text = String(property.bedrooms)
         cell.bathroomNumLabel.text = String(property.bathrooms)
